@@ -10,3 +10,13 @@ The first td in that table (with the word “Age”).
 The form with name="search".
 The first input in that form.
 The last input in that form.
+
+Answer:
+table = document.querySelector('table')
+lb = table.querySelector('label')
+td1 = table.querySelector('td')
+name1 = document.getElementsByName('search')
+inpt = document.getElementsByTagName('input')
+
+
+
